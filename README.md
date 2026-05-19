@@ -66,7 +66,7 @@ cix run --job build -f path/to/.gitlab-ci.yml
 ## Demo
 
 ```
-![cix demo](assets/demo.gif)
+![cix demo](https://github.com/tiep-cixplatform/cix/raw/main/assets/demo.gif)
 ```
 
 ## Local config
