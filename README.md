@@ -66,22 +66,7 @@ cix run --job build -f path/to/.gitlab-ci.yml
 ## Demo
 
 ```
-$ cix run --job build
-
-cix v0.1.0 · GitLab CI local runner
-
-▶ job: build  (node:20-alpine)
-  ✓ npm ci                                        12.3s
-  ✓ npm run build                                  8.1s
-  ✗ npm run test
-
-FAILED · build exited with code 1
-
-stderr output:
-  Error: Cannot find module './config'
-  at Object.<anonymous> (/app/src/index.js:3:18)
-
-tip: run with --keep-on-fail to inspect the container
+![cix demo](assets/demo.gif)
 ```
 
 ## Local config
