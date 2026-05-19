@@ -19,20 +19,20 @@ Every GitLab CI change requires a push. You wait 5–10 minutes for the pipeline
 **macOS (Homebrew)**
 
 ```bash
-brew tap tiepnguyen-cix/cix
+brew tap tiep-cixplatform/cix
 brew install cix
 ```
 
 **Linux / macOS (curl)**
 
 ```bash
-curl -sSL https://github.com/tiepnguyen-cix/cix/releases/latest/download/install.sh | sh
+curl -sSL https://github.com/tiep-cixplatform/cix/releases/latest/download/install.sh | sh
 ```
 
 **Go**
 
 ```bash
-go install github.com/tiepnguyen-cix/cix/cmd/cix@latest
+go install github.com/tiep-cixplatform/cix/cmd/cix@latest
 ```
 
 ## Usage
