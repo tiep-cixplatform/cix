@@ -66,7 +66,7 @@ cix run --job build -f path/to/.gitlab-ci.yml
 ## Demo
 
 ```
-![cix demo](https://github.com/tiep-cixplatform/cix/raw/main/assets/demo.gif)
+![cix demo](assets/demo.gif)
 ```
 
 ## Local config
@@ -102,11 +102,11 @@ Add `.cix.yml` to your `.gitignore` — it is for local use only.
 | `artifacts.paths` | ✅ |
 | `needs` | ✅ |
 | `allow_failure` | ✅ |
-| `extends` | 🔜 v0.2 |
-| `include` | 🔜 v0.2 |
-| `services` | 🔜 v0.2 |
-| `rules` | 🔜 v0.2 |
-| `cache` | 🔜 v0.2 |
+| `extends` | 🔜 v2 |
+| `include` | 🔜 v2 |
+| `services` | 🔜 v2 |
+| `rules` | 🔜 v2 |
+| `cache` | 🔜 v2 |
 
 ## Predefined CI variables
 
@@ -142,7 +142,7 @@ Add `.cix.yml` to your `.gitignore` — it is for local use only.
 ## Contributing
 
 ```bash
-git clone https://github.com/tiepnguyen-cix/cix
+git clone https://github.com/tiep-cixplatform/cix.git
 cd cix
 go mod tidy
 go test ./...
