@@ -6,9 +6,9 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/cix-platform/cix/pkg/executor"
-	"github.com/cix-platform/cix/pkg/output"
-	"github.com/cix-platform/cix/pkg/parser"
+	"github.com/tiep-cixplatform/cix/pkg/executor"
+	"github.com/tiep-cixplatform/cix/pkg/output"
+	"github.com/tiep-cixplatform/cix/pkg/parser"
 )
 
 var version = "dev"

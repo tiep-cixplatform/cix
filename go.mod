@@ -1,4 +1,4 @@
-module github.com/cix-platform/cix
+module github.com/tiep-cixplatform/cix
 
 go 1.22
 
