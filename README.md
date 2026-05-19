@@ -65,9 +65,7 @@ cix run --job build -f path/to/.gitlab-ci.yml
 
 ## Demo
 
-```
 ![cix demo](assets/demo.gif)
-```
 
 ## Local config
 
